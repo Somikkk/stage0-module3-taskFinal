@@ -1,7 +1,7 @@
 package lang.print.gaps.finalModuleTask;
 
 public class NumberReverter {
-    public void reverse(int number) {
+    public void revert(int number) {
         int a, result = 0;
         while(number != 0) {
             a = number % 10;
@@ -12,6 +12,6 @@ public class NumberReverter {
     }
 
     public static void main(String[] args) {
-        new NumberReverter().reverse(0);
+        new NumberReverter().revert(0);
     }
 }
